@@ -1,0 +1,113 @@
+body{
+	font-family: helvetica, arial;
+}
+.banner{
+	background-color: rgb(26,157,227);
+	color: rgb(168,224,251);
+	padding:20px;
+}
+.banner a{
+	text-decoration:none;
+	color: white;
+	text-shadow: 3px 2px rgb(21,81,125);
+}
+.bar{
+	background-color: rgb(54,185,245);
+	padding: 8px 0px;
+	border-bottom: 1px solid rgb(21,115,84);
+}
+.title{
+	text-decoration: none;
+	color: rgb(168,224,251);
+	border-right: 1px solid rgb(181,231,253);
+}
+.title:hover{
+	text-decoration: none;
+	color: white;
+}
+.datae{
+	background-color: rgb(29,158,116);
+	border-top: 1px solid rgb(115,193,167);
+	padding: 0px 10px;
+	text-align: justify;
+	color: white;
+	height: 500px;
+	font-size: 20px;
+}
+.datae strong{
+	color: black;
+}
+.info{
+	background-color: rgb(26,157,227);
+	padding: 10px;
+}
+.info a{
+	color: white;
+	border: 2px solid white;
+	border-radius: 30px;
+	margin: 20px auto;
+}
+.info a:hover{
+	color: rgb(29,158,116);
+	background-color: white;
+	border: 2px solid rgb(29,158,116);
+	border-radius: 20px;
+}
+.bold{
+	background-color: #e9e9e9;
+	font-family: georgia;
+	font-size: 40px;
+}
+.box{
+	box-shadow: 10px 10px 5px #888888;
+	margin: 0px auto 15px auto;
+}
+.well{
+	background-color: rgb(245,245,245);
+	border: 1px solid rgb(227,227,227);
+	border-radius: 5px;
+	padding: 10px;
+}
+blockquote{
+	border-left: 5px solid rgb(238,238,238);
+	font-size: 20px;
+	padding-left: 10px;
+}
+footer{
+	font-size: 15px;
+	color: rgb(119,119,119);
+}
+.presentation-slide
+{
+	display: none;
+}
+.panel{
+	border: 1px solid rgb(51,122,183);
+	border-radius: 5px;
+	margin: 5px;
+}
+.panel-heading{
+	background-color: rgb(51,122,183);
+	color: white;
+	padding: 5px;
+}
+.panel-body{
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+.somebtnclass{
+	text-decoration: none;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid rgb(204,204,204);
+	color: black;
+}
+.somebtnclass:hover{
+	text-decoration: none;
+	background-color: rgb(230,230,230);
+	border: 1px solid rgb(173,173,173);
+	color: black;
+}

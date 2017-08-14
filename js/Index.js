@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$('.presentation-slide').css("display","none");
+		$('#slide-1').css("display","block");
+	$('#topic-1').click(function(){
+		$('.presentation-slide').css("display","none");
+		$('#slide-1').css("display","block");
+	});
+	$('#topic-2').click(function(){
+		$('.presentation-slide').css("display","none");
+		$('#slide-2').css("display","block");
+	});
+	$('#topic-3').click(function(){
+		$('.presentation-slide').css("display","none");
+		$('#slide-3').css("display","block");
+	});
+	$('#topic-4').click(function(){
+		$('.presentation-slide').css("display","none");
+		$('#slide-4').css("display","block");
+	});
+});
