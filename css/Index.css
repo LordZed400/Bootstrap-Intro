@@ -19,11 +19,13 @@ body{
 .title{
 	text-decoration: none;
 	color: rgb(168,224,251);
-	border-right: 1px solid rgb(181,231,253);
 }
 .title:hover{
 	text-decoration: none;
 	color: white;
+}
+.bored{
+	border-right: 1px solid rgb(181,231,253);
 }
 .datae{
 	background-color: rgb(29,158,116);
@@ -66,7 +68,15 @@ body{
 	background-color: rgb(245,245,245);
 	border: 1px solid rgb(227,227,227);
 	border-radius: 5px;
-	padding: 10px;
+	padding: 8px;
+	margin: 2px;
+}
+.blackwell{
+	background-color: rgb(245,245,245);
+	border: 1px solid rgb(227,227,227);
+	padding: 7px;
+	margin: 2px;
+	text-align: center;
 }
 blockquote{
 	border-left: 5px solid rgb(238,238,238);
